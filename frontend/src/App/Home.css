@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+  /* Custom Color Palette */
+  --primary-color: #0d6efd; 
+  --primary-hover: #0d6efd;
+  --secondary-color: #f0f4f8;
+  --text-dark: #334155;
+  --text-light: #64748b;
+  --border-color: #e2e8f0;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+
+  /* Font Families */
+  --font-heading: 'Roboto Slab', serif;
+  --font-body: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-dark);
+}
+
+/* Global text alignment for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-dark);
+}
+
+/* Creative Hero Section */
+.creative-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url('../assets/laptop.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 50px 0;
+}
+
+/* RGBA Overlay for content */
+.creative-hero-section .hero-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 30px var(--shadow-color);
+  z-index: 2;
+}
+
+/* Section Backgrounds */
+.bg-light {
+  background-color: var(--secondary-color) !important;
+}
+
+/* Custom button styles to match the Ink & Imagination theme */
+.btn-primary {
+  border-color: var(--primary-color);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark {
+  color: var(--text-dark);
+  border-color: var(--text-dark);
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--text-dark);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: var(--text-dark);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Adjust card border for a cleaner look */
+.card {
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 6px 20px var(--shadow-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card image top spacing */
+.card-img-top {
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+/* Icons within cards */
+.key-highlights-section .card i {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* Typography Adjustments */
+.display-3 {
+  font-size: calc(1.75rem + 3vw);
+}
+
+.lead {
+  font-size: 1.35rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+}
+
+.card-text.small {
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+/* General Section Paddings */
+.py-5 {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+/* Responsive adjustments for hero section text */
+@media (max-width: 768px) {
+  .creative-hero-section .hero-content {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .creative-hero-section .hero-content {
+    padding: 20px;
+  }
+  .btn-lg {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
+.card-img-container {
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.responsive-image {
+  max-width: 100% !important;
+  height: 450px !important;
+  display: block !important;
+}
+
+/* Main Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Post Title */
+.post-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+/* Post Metadata */
+.post-meta {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+/* Post Image */
+.post-image-container {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+  min-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Article Content */
+.post-content {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Comments Section Styling */
+.comments-section {
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
