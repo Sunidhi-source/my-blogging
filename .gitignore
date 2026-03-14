@@ -1,2 +1,4 @@
-/pending_task.txt
-/struc.txt
+node_modules/
+.env
+backend/.env
+frontend/node_modules/
