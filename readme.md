@@ -4,7 +4,7 @@ A High-Performance MERN Stack Blogging PlatformInk & Imagination is a full-stack
 **🚀 Live Demo**
 deploying
 
-## 📸 Project Previews
+## 📸 Project Previews 
 
 | **Main Landing Page** | **Admin Dashboard** |
 | :---: | :---: |
