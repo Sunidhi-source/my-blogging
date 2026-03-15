@@ -1,10 +1,21 @@
-🖋️ Ink & Imagination
-A High-Performance MERN Stack Blogging PlatformInk & Imagination is a full-stack web application designed for creators. It combines a sophisticated writing experience with a robust administrative backend, allowing for seamless content management and audience insights.
+# 🖋️ Ink & Imagination
+> **A high-performance MERN stack blogging platform for modern creators.**
 
-🚀 Live Demo
-deploying
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
-## 📸 Project Previews 
+Ink & Imagination is a full-stack web application designed for creators. It combines a sophisticated writing experience with a robust administrative backend, allowing for seamless content management and audience insights.
+
+---
+
+## 🚀 Live Demo
+🚀 **[View Live Project](https://ink-and-imagination.onrender.com)** *(Status: Deploying...)*
+
+---
+
+## 📸 Project Previews
 
 | **Main Landing Page** | **Admin Dashboard** |
 | :---: | :---: |
@@ -14,20 +25,33 @@ deploying
 | :---: |
 | ![Articles](./screenshots/articles.png) |
 
-✨ Key Features
-Rich Text Editor: Integrated CKEditor 5 to provide a professional writing interface for authors.Administrative Suite: A dedicated dashboard for monitoring user growth and content statistics.
-Full CRUD Operations: Comprehensive API for Creating, Reading, Updating, and Deleting blog posts.Category Management: Dynamic filtering of articles by topic.
-Responsive UI: Fully optimized for mobile, tablet, and desktop viewing.
+---
 
-🛠️ Tech Stack
-Frontend: React.js, Vite, Axios, Bootstrap CSS
-Backend: Node.js, Express.js
-Database: MongoDB Atlas (Mongoose ODM)
-Security: JWT Authentication, Bcrypt Password Hashing, Dotenv
+## ✨ Key Features
+* **Rich Text Editor:** Integrated **CKEditor 5** for a professional writing interface.
+* **Administrative Suite:** A dedicated dashboard for monitoring user growth and statistics.
+* **Full CRUD Operations:** Comprehensive API for Creating, Reading, Updating, and Deleting posts.
+* **Secure Auth:** JWT-based authentication with Bcrypt password hashing.
+* **Responsive UI:** Fully optimized for mobile, tablet, and desktop using **Bootstrap CSS**.
 
-⚙️ Installation & Setup
-1. Ensure you have Node.js and npm installed on your machine.
-2. Clone the Repository git clone https://github.com/Sunidhi-source/my-blogging.git
+---
+
+## 🛠️ Tech Stack
+* **Frontend:** React.js, Vite, Axios, Bootstrap
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB Atlas (Mongoose ODM)
+* **Tools:** Dotenv, JSON Web Tokens (JWT)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Prerequisites
+Ensure you have **Node.js** and **npm** installed on your machine.
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/Sunidhi-source/my-blogging.git](https://github.com/Sunidhi-source/my-blogging.git)
 cd my-blogging
 
 ### 3. Backend Configuration
@@ -37,29 +61,23 @@ cd backend
 npm install express mongoose dotenv cors jsonwebtoken bcryptjs
 # To start the server in development mode:
 npm start
-nodemon index
-4. Frontend Configuration
-cd ../frontend
-npm install --legacy-peer-deps
-# Setup .env file
-npm run dev
 
-🔐 Environment Variables
-To run this project locally, create a .env file in both the frontend and backend directories.Backend (/backend/.env)
-PORT=3000
-SALT=10
-EMAIL= email id
-PASSWORD= password
-MONGO_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/blog
-JWT_SECRET=your_secret_key_here
-
-Frontend (/frontend/.env)
+### Frontend (`/frontend/.env`)
+```env
 VITE_API_URL=http://localhost:3000
 VITE_IMAGE_SRC=http://localhost:3000/public/
 
-📜 Professional Highlights
-This project demonstrates proficiency in:
-State Management: Handling complex UI states across the MERN stack.
-API Architecture: Building RESTful services with structured error handling.
-Database Design: Implementing schema-based data modeling with Mongoose.
-Frontend Integration: Seamlessly connecting React hooks with Axios for real-time data fetching.
+---
+
+## 📜 Professional Highlights
+
+> **This project serves as a comprehensive demonstration of full-stack engineering principles, focusing on the following core competencies:**
+
+* **🛠️ API Architecture:** Developed a **robust RESTful API** with structured error handling, middleware integration, and secure route protection.
+* **🗄️ Database Design:** Engineered **complex data schemas** using Mongoose to ensure data integrity and efficient document relationships.
+* **🔐 Security Implementation:** Integrated **industry-standard security practices**, including JWT authentication, environment variable isolation, and Bcrypt password hashing.
+* **💻 UI/UX Engineering:** Successfully integrated specialized libraries like **CKEditor 5** into a React workflow while maintaining **full responsiveness** and state synchronization.
+* **📈 Scalability & State Management:** Built with **modularity** in mind, utilizing advanced React hooks to handle complex data flow across the MERN stack.
+
+---
+**Developed by Sunidhi Sharma**
