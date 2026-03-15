@@ -11,7 +11,7 @@ Ink & Imagination is a full-stack web application designed for creators. It comb
 ---
 
 ## 🚀 Live Demo
-🚀 **[View Live Project](https://ink-and-imagination.onrender.com)** *(Status: Deploying...)*
+🚀 **https://ink-imagination-frontend.onrender.com** 
 
 ---
 
