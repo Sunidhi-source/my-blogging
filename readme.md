@@ -53,6 +53,7 @@ Ensure you have **Node.js** and **npm** installed on your machine.
 ```bash
 git clone [https://github.com/Sunidhi-source/my-blogging.git](https://github.com/Sunidhi-source/my-blogging.git)
 cd my-blogging
+```
 
 ### 3. Backend Configuration
 Navigate to the backend folder and install the necessary dependencies:
@@ -61,12 +62,13 @@ cd backend
 npm install express mongoose dotenv cors jsonwebtoken bcryptjs
 # To start the server in development mode:
 npm start
+```
 
 ### Frontend (`/frontend/.env`)
 ```env
 VITE_API_URL=http://localhost:3000
 VITE_IMAGE_SRC=http://localhost:3000/public/
-
+```
 ---
 
 ## 📜 Professional Highlights
