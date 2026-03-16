@@ -51,7 +51,7 @@ Ensure you have **Node.js** and **npm** installed on your machine.
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/Sunidhi-source/my-blogging.git](https://github.com/Sunidhi-source/my-blogging.git)
+git clone https://github.com/Sunidhi-source/my-blogging.git
 cd my-blogging
 ```
 
